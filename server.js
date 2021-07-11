@@ -21,4 +21,4 @@ app.set('view engine', 'hbs');
 
 app.listen(3000,()=>{console.log('express server started at 3000');});
 
-app.use('/employee',employeeController);
+app.use('/employee',employeeController); 
